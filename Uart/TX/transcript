@@ -1,0 +1,64 @@
+# //  Questa Altera Starter FPGA Edition-64
+# //  Version 2025.2 win64 May 31 2025
+# //
+# // Unpublished work. Copyright 2025 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# vlib work
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+#  vlog -sv uart_tx.sv tb_uart_tx.sv
+# Questa Altera Starter FPGA Edition-64 vlog 2025.2 Compiler 2025.05 May 31 2025
+# Start time: 01:56:47 on Oct 01,2026
+# vlog -reportprogress 300 -sv uart_tx.sv tb_uart_tx.sv 
+# ** Note: (vlog-220) 'C:/altera_lite/25.1std/questa_fse/win64/../modelsim.ini' is used as the ini file.
+# -- Compiling module uart_tx
+# -- Compiling module tb_uart_tx
+# 
+# Top level modules:
+# 	tb_uart_tx
+# End time: 01:56:47 on Oct 01,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+#  vsim -voptargs=+acc work.tb_uart_tx
+# ** Note: (vsim-220) 'C:/altera_lite/25.1std/questa_fse/win64/../modelsim.ini' is used as the ini file.
+# vsim -voptargs="+acc" work.tb_uart_tx 
+# Start time: 01:56:47 on Oct 01,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: (vopt-10908) Some optimizations are turned off because the +acc switch is in effect.
+# ** Note: (vopt-220) 'C:/altera_lite/25.1std/questa_fse/win64/../modelsim.ini' is used as the ini file.
+# ** Note: (vopt-143) Recognized 1 FSM in module "uart_tx(fast)".
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=1.
+# Loading sv_std.std
+# Loading work.tb_uart_tx(fast)
+# Loading work.uart_tx(fast)
+#  add wave -radix hex /tb_uart_tx/dut/*
+#  run -all
+# OK: 0x55 ('U')
+# OK: 0x00 ('')
+# OK: 0xff ('ÿ')
+# OK: 0x41 ('A')
+# OK: 0xa5 ('¥')
+# TEST PASSED
+# ** Note: $finish    : tb_uart_tx.sv(62)
+#    Time: 434390 ns  Iteration: 2  Instance: /tb_uart_tx
+# 1
+# Break in Module tb_uart_tx at tb_uart_tx.sv line 62
+#  wave zoom full
+# {0 ps} {456109500 ps}
+# End time: 11:18:36 on Oct 01,2026, Elapsed time: 9:21:49
+# Errors: 0, Warnings: 1
+# Can't move the Now cursor.
+# Can't move the Now cursor.
+# Can't move the Now cursor.
+# Can't move the Now cursor.
+# Can't move the Now cursor.
+# Can't move the Now cursor.
+# Can't move the Now cursor.

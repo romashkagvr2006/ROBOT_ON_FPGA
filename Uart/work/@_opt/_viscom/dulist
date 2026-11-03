@@ -1,0 +1,2 @@
+1 7 uart_tx 4 fast 25 C:/FPGA_PROJECT/Uart/work 0 0 0 0 185 0
+1 10 tb_uart_tx 4 fast 25 C:/FPGA_PROJECT/Uart/work 0 0 0 0 277 0
